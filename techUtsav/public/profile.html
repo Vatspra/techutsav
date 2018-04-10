@@ -1,0 +1,26 @@
+<h1 class="text-center header">Hello {{name}}</h1>
+
+<input type="button" id ="a" class="btn btn-success" value={{msg}} ng-click="GenerateTable()" />
+<div>
+
+        <hr />
+        <table cellpadding="0" cellspacing="0" ng-show="IsVisible" id="customers">
+            <tr>
+                <th>city</th>
+                <th>longitude</th>
+                <th>latitude</th>
+                <th>Date</th>
+                <th>Cost</th>
+            </tr>
+            <tbody ng-repeat="m in Customers">
+                <tr>
+                    <td>{{m.city}}</td>
+                    <td>{{m.longi}}</td>
+                    <td>{{m.lati}}</td>
+                    <td>{{m.date}}</td>
+                    <td>{{m.cost}}</td>
+                </tr>
+            </tbody>
+        </table>
+      <label id="a">Total Due : <input type="button"  class="btn btn-success" value={{totalDue}} /></label> <input type="button" class="btn btn-danger" value ="Pay Now">
+    </div>

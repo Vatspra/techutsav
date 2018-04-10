@@ -1,0 +1,21 @@
+
+<h2 ng-show="msg" class="a btn btn-danger important text-center">
+     {{msg}}
+</h2>
+<form ng-submit="login()">
+  <br>
+  <div class="container" id="login">
+
+
+
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" ng-model="user.email" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password"  ng-model="user.password" required>
+
+    <button type="submit">Login</button>
+
+
+  </div>
+</form>

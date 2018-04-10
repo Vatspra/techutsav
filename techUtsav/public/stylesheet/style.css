@@ -1,0 +1,155 @@
+/* Styles go here */
+
+
+form{
+  margin-left:10px;
+  padding:5px;
+  margin-top:10px;
+}
+
+input[type=text], input[type=password],input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login button:hover {
+    opacity: 0.8;
+}
+
+
+
+.x{
+  cursor:pointer;
+}
+
+#create{
+width:50%;
+margin-left:auto;
+margin-right:auto
+
+}
+#signup input[type=text], input[type=password] {
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#important{
+  color:red;
+}
+
+/* Set a style for all buttons */
+#signup button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#myForm select{
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  border-radius:10px;
+  color:black;
+}
+#div{
+  margin-top:10px;
+}
+
+.a{
+
+  font-size: 20px;}
+  h2{
+  color:Blue
+}
+
+h3{
+  margin-left:20px;
+}
+
+nav{
+  height:100px;
+  font-size: 30px;
+}
+
+.navbar-header a{
+
+  font-size: 30px;
+
+}
+nav{
+  padding:10px
+}
+.cont{
+  background-color:gray;
+  height:400px;
+  opacity:0.1
+
+}
+#a{
+  margin-left: 40%;
+  margin-top:20px;
+  font-size: 25px;
+}
+.header{
+  color:green;
+}
+.list-group-item{
+  font-size:30px;}
+
+#imgDiv{
+  margin-left:20px;
+  padding:10px;
+}
+
+.img{
+  height:100px;
+  width:100px
+}
+#name{
+  margin:20px;
+  font-size:20px;
+}
+#div{
+  display:inline-block;
+  margin:10px;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
